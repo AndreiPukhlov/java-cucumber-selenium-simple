@@ -1,0 +1,12 @@
+# Project exclude paths
+/target/
+.DS_Store
+screenshots/
+screenshot/
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
