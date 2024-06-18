@@ -18,7 +18,7 @@ import static support.TestContext.getDriver;
 
 public class googleSteps {
     @Given("user is on the google page")
-    public void userIsOnTheSamplePage() throws InterruptedException {
+    public void userIsOnTheGooglePage() throws InterruptedException {
         getDriver().get("https://www.google.com/");
         Thread.sleep(1000);
     }
@@ -42,7 +42,7 @@ public class googleSteps {
 
     }
 
-    @And("they accepts cookies")
+    @And("they accepted cookies")
     public void theyAcceptedCookies() throws InterruptedException {
         WebElement element = getDriver().findElement(By.xpath("//*[contains(@class,'ch2-btn-primary')]"));
         WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));

@@ -7,4 +7,4 @@ Feature: All tests for Google page
 	When they search for Cucumber Selenium
 	And they proceed with the result
 	Then the right page is opened
-	And they accepts cookies
+	And they accepted cookies
